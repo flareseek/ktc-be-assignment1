@@ -29,7 +29,7 @@ public class AppLv3 {
             final char operator = sc.next().charAt(0);
 
             try {
-                final Double result = calculator.calculate(number1, number2, operator);
+                final double result = calculator.calculate(number1, number2, operator);
                 calculator.getResults().add(result);
                 System.out.println("결과: " + result);
             } catch (Exception e) {
